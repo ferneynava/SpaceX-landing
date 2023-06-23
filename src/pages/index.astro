@@ -4,25 +4,31 @@ import Header from '../components/Header.astro';
 // @ts-ignore 
 import Layout from '../layouts/Layout.astro';
 import StarlinkMission from '../components/StarlinkMission.astro'
-import PsnSatriaMission from '../components/PsnSatriaMission.astro'
+import StarlinkMission2 from '../components/STARLINK MISSION2.astro'
 import StarshipFlightTest from '../components/StarshipFlightTest.astro'
+import Psnsatriamission from '../components/Psnsatriamission.astro'
 import Footer from '../components/Footer.astro'
 ---
 
 <Layout title="SpaceX">
 	<Header/>
-	<main class="snap-mandatory snap-y relative w-full h-screen overflow-x-hidden overflow-auto scroll-smooth">
-		<div class="snap-center">
-			<StarlinkMission/>
-		</div>
-		<div class="snap-center">
-			<PsnSatriaMission/>
-		</div>
-		<div class="snap-center">
-			<StarshipFlightTest/>
-		</div>
-		<div class="snap-center">
-			<Footer/>
+	<main>
+		<div class="w-full h-screen snap-mandatory snap-y relative overflow-x-hidden overflow-auto scroll-smooth">
+			<div class="snap-center">
+				<StarlinkMission/>
+			</div>
+			<div class="snap-center">
+				<StarlinkMission2/>
+			</div>
+			<div class="snap-center">
+				<Psnsatriamission/>
+			</div>
+			<div class="snap-center">
+				<StarshipFlightTest/>
+			</div>
+			<div class="snap-center">
+				<Footer/>
+			</div>
 		</div>
 	</main>
 	

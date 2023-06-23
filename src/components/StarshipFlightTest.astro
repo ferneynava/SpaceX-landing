@@ -1,19 +1,7 @@
-<section class="landing-section w-screen h-screen text-center relative overflow-hidden flex flex-col justify-end">
-    <div class="mx-[19rem] z-30 relative text-left">
-        <header>
-            <p class="text-white text-lg"></p>
-            <h1 class="text-white text-[44px] font-bold">STARSHIP FLIGHT TEXT</h1>
-        </header>
+---
+import Section from "./Section.astro";
+---
 
-        <footer class="flex flex-nowrap pb-36 mt-7">
-            <a 
-            class="border-2 border-white text-[14px] font-bold text-white px-14 py-3 hover:bg-white hover:text-black transition-colors" 
-            href="#"
-            >REWATCH</a>
-        </footer>
-    </div>
-    
-    <div class="absolute top-0 bottom-0 w-full h-full z-10">
-        <img class="block h-full w-full object-cover object-center" src="/public/STARSHIP_Testflight_DESKTOP_2b3bea613a.jpg" alt="Starlink1">
-    </div>
-</section>
+<Section title="STARSHIP FLIGHT TEXT" pbutton="REWATCH">
+    <img slot="background" class="h-full w-full object-cover object-center" src="/public/STARSHIP_Testflight_DESKTOP_2b3bea613a.jpg" alt="Starlink1">
+</Section>

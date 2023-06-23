@@ -1,0 +1,23 @@
+---
+const {title, subtitle, pbutton} = Astro.props
+---
+
+<section class="landing-section w-screen h-screen text-center relative overflow-hidden flex flex-col justify-end">
+    <div class="mx-[19rem] z-30 relative text-left">
+        <header>
+            <p class="text-white text-lg font-sans">{subtitle}</p>
+            <h1 class="text-white text-[44px] font-sans">{title}</h1>
+        </header>
+
+        <footer class="flex flex-nowrap pb-36 mt-7">
+            <a 
+            class="border-2 border-white text-[14px] font-sans text-white px-14 py-3 hover:bg-white hover:text-black transition-colors" 
+            href="#"
+            >{pbutton}</a>
+        </footer>
+    </div>
+    
+    <div class="absolute top-0 bottom-0 z-10">
+        <slot name="background"/>
+    </div>
+</section>

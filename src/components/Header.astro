@@ -37,15 +37,15 @@ import Logo from "./Logo.astro";
             <div id="line1" class="rotate-[var(--rotate)]"></div>
             <div id="line2" class="opacity-[var(--worthOpacity)]"></div>
             <div id="line3" class="rotate-[var(--rotateNegative)]"></div>
-        </button>
+        </button> 
     </div>
     
     <div id="menu" class="top-0 fixed hidden">
-        <div class="absolute w-screen h-screen bg-[rgba(0,0,0,.5)] flex justify-end top-0"> 
-            <div class="bg-[#000] w-[23rem] h-screen top-0 "></div>
+        <div class="absolute w-screen h-screen bg-[rgba(0,0,0,.5)] flex justify-end top-0 animate-fade animate-once animate-ease-in"> 
+            <div class="bg-[#000] w-[23rem] h-screen top-0 animate-fade-left animate-once animate-ease-in"></div>
         </div>
         
-        <div class="absolute flex text-right justify-end items-end w-screen flex-col py-[80px] px-[58px] gap-y-4 z-30">
+        <div class="absolute flex text-right justify-end items-end w-screen flex-col py-[80px] px-[58px] gap-y-4 z-30 animate-fade-left animate-once animate-ease-in">
             <ul class="text-white w-[15rem] text-right [&>li>a]:font-serif [&>li>a]:font-[500] flex flex-col gap-y-1 leading-10 [&>li]:border-b [&>li]:border-b-[#252525] [&>li]:transition-colors [&>li]:duration-[1s]">
                 <li class="hover:text-[#8b939b]"><a href="#">MISSION</a></li>
                 <li class="hover:text-[#8b939b]"><a href="#">LAUNCHES</a></li>

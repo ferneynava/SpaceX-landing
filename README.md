@@ -122,9 +122,6 @@ Project Link: [https://github.com/ferneynava/SpaceX-landing](https://github.com/
 
 <p align="right">(<a href="#volver-arriba">volver arriba</a>)</p>
 
-## Expresiones de gratitud
-* [Midudev](https://midu.dev/)
-
 <p align="right">(<a href="#volver-arriba">volver arriba</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->

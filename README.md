@@ -50,7 +50,6 @@
     <li><a href="#contribuyendo">Contribuyendo</a></li>
     <li><a href="#licencia">Licencia</a></li>
     <li><a href="#contacto">Contacto</a></li>
-    <li><a href="#expresiones-de-gratitud">Expresiones de gratitud</a></li>
   </ol>
 </details>
 
@@ -122,10 +121,7 @@ Project Link: [https://github.com/ferneynava/SpaceX-landing](https://github.com/
 
 <p align="right">(<a href="#volver-arriba">volver arriba</a>)</p>
 
-<p align="right">(<a href="#volver-arriba">volver arriba</a>)</p>
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/ferneynava/SpaceX-landing.svg?style=for-the-badge
 [contributors-url]: https://github.com/ferneynava/ferneynava/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/ferneynava/SpaceX-landing.svg?style=for-the-badge

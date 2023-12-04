@@ -97,7 +97,8 @@ Pagina de SpaceX utilizando tecnologías como HTML, CSS, JavaScript, Astro y Tai
 <p align="right">(<a href="#volver-arriba">volver arriba</a>)</p>
 
 ## Contribuyendo
-Las contribuciones son lo que hace que la comunidad de código abierto sea un lugar increíble para aprender, inspirar y crear. **Cualquier contribución que hagas es muy apreciada**.
+> [!IMPORTANT]
+> Las contribuciones son lo que hace que la comunidad de código abierto sea un lugar increíble para aprender, inspirar y crear. **Cualquier contribución que hagas es muy apreciada**.
 
 Si tiene una sugerencia que mejoraría esto, bifurque el repositorio y crea una solicitud de extracción. También puede simplemente abrir un problema con la etiqueta "mejora". ¡No olvides darle una estrella al proyecto! ¡Gracias de nuevo!
 
